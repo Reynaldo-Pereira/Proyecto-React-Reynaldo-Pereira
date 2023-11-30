@@ -1,12 +1,12 @@
-import { NavBar } from './components/Navbar.jsx'
-import { Body } from './components/Desarrollo.jsx'
+import { NavBar } from './components/navbar/Navbar.jsx'
+import { Desarrollo } from './components/Desarrollo.jsx'
 
 function App() {
 
   return (
     <>
       <NavBar />
-      <Body /> 
+      <Desarrollo /> 
     </>
   )
 }
