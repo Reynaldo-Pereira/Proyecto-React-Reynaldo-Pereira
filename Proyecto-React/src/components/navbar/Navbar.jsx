@@ -4,7 +4,7 @@ export function NavBar() {
 
     return (
         <header>
-            <img src="/react.svg" alt="" />
+            <img src="/react.svg" alt="logo" />
 
             <nav>
                 <ul>
@@ -12,8 +12,8 @@ export function NavBar() {
                     <li><a href="">Buzos</a></li>
                     <li><a href="">Pantalones</a></li>
                     <li><a href="">Shorts</a></li>
-                    <li><a href="">Carrito</a></li>
                 </ul>
+                <a className= "carrito" href="">🛒</a>
             </nav>
         </header>
     )
