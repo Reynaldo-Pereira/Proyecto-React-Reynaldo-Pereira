@@ -1,12 +1,14 @@
 import './navbar.css'
+import { Cart } from '../cartwidget/CartWidget'
 
 export function NavBar() {
 
     return (
         <header>
-            <img src="/react.svg" alt="logo" />
+            <Cart />
 
             <nav>
+                <h1><em>Treasure</em></h1>
                 <ul>
                     <li><a href="">Camisetas</a></li>
                     <li><a href="">Buzos</a></li>
