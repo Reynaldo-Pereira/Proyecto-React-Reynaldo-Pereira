@@ -10,6 +10,8 @@ export function NavBar() {
             <nav>
                 <h1><em>Treasure</em></h1>
                 <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Zapatillas</a></li>
                     <li><a href="">Camisetas</a></li>
                     <li><a href="">Buzos</a></li>
                     <li><a href="">Pantalones</a></li>
