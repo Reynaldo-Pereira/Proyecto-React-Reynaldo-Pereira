@@ -1,25 +1,23 @@
 import { useEffect, useState } from "react"
+import { pedirDatos } from "../components/js/util"
 
 const useProductos = () => {
     const [productos, setProductos] = useState([])
+    const [loading, setLoading] = useState(true)
 
     useEffect(() => {
+        setLoading(true)
 
-        fetch('/components/js/productos.json')
-            .then((res) => {
-                if (!res.ok) {
-                    throw new Error ('error al cargar los datos');
-                }
-    
-                return res.json();
-            })
+        pedirDatos()
             .then((data) => {
                 setProductos(data)
             })
+            .finally(() => setLoading( false ))
         }, [])
 
     return {
-        productos
+        productos,
+        loading
     }    
 }
 

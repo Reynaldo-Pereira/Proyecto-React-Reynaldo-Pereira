@@ -11,9 +11,7 @@ function App() {
 
       <Routes>
 
-        <Route path='/' element= { <Desarrollo /> } />
-        <Route path='/' element= { <Desarrollo /> } />
-        <Route path='/' element= { <Desarrollo /> } />
+        <Route path='*' element= { <Desarrollo /> } />
 
       </Routes>
 

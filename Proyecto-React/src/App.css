@@ -1,8 +1,16 @@
-.cards {
+.box-container {
   display: flex;
   flex-direction: column;
   padding: 10px;
   gap: 20px;
+}
+
+p {
+  color: white;
+}
+
+b {
+  color: greenyellow;
 }
 
 h2 {
