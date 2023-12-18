@@ -1,4 +1,3 @@
-import './navbar.css'
 import { Cart } from '../cartwidget/CartWidget'
 import { Link } from 'react-router-dom'
 
@@ -6,21 +5,22 @@ export function NavBar() {
 
     return (
         <header>
+
             <Cart />
 
             <nav>
-                <h1><em>Treasure</em></h1>
+
+                <p><em>Treasure</em></p>
 
                 <div>
-                    <Link to={'/'}>Inicio</Link>
-                    <Link to={'/zapatillas'}>Zapatillas</Link>
-                    <Link to={'/camisetas'}>Camisetas</Link>
-                    <Link to={'/buzos'}>Buzos</Link>
-                    <Link to={'/pantalones'}>Pantalones</Link>
-                    <Link to={'/shorts'}>Shorts</Link>
+                    <Link to={'/'}>INICIO</Link>
+                    <Link to={'/zapatillas'}>ZAPATILLAS</Link>
+                    <Link to={'/camisetas'}>CAMISETAS</Link>
+                    <Link to={'/buzos'}>BUZOS</Link>
+                    <Link to={'/pantalones'}>PANTALONES</Link>
+                    <Link to={'/shorts'}>SHORTS</Link>
+                    <Link to={'/carrito'}> <img src="/carrito.jpg" alt="carrito" /> </Link>
                 </div>
-
-                <Link  to={'/carrito'}>🛒</Link>
 
             </nav>
         </header>

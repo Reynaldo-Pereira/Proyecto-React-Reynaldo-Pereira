@@ -1,6 +1,4 @@
-import { data } from "./productos"
-
-export const pedirDatos = () => {
+export const usePedirDatos = (data) => {
 
     return new Promise((resolve, reject) => {
         setTimeout(() => {

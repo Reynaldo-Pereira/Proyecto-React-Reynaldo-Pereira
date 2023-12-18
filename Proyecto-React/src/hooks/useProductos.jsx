@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react"
-import { pedirDatos } from "../components/js/util"
+import { usePedirDatos } from "./usePedirDatos"
 
-const useProductos = () => {
+const useProductos = (data) => {
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
         setLoading(true)
 
-        pedirDatos()
-            .then((data) => {
-                setProductos(data)
+        usePedirDatos(data)
+            .then((res) => {
+                setProductos(res)
             })
             .finally(() => setLoading( false ))
         }, [])
