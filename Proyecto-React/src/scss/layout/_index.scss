@@ -1,5 +1,14 @@
-h2 {
-    color: white;
+.carga {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h3 {
+        font-size: 30px;
+        color: white;
+    }
 }
 
 .cards {
@@ -85,6 +94,11 @@ h2 {
 
         &:hover {
             border-radius: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 15px;
         }
     }
 }

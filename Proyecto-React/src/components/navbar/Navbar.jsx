@@ -14,12 +14,12 @@ export function NavBar() {
 
                 <div>
                     <Link to={'/'}>INICIO</Link>
-                    <Link to={'/zapatillas'}>ZAPATILLAS</Link>
-                    <Link to={'/camisetas'}>CAMISETAS</Link>
-                    <Link to={'/buzos'}>BUZOS</Link>
-                    <Link to={'/pantalones'}>PANTALONES</Link>
-                    <Link to={'/shorts'}>SHORTS</Link>
-                    <Link to={'/carrito'}> <img src="/carrito.jpg" alt="carrito" /> </Link>
+                    <Link to={'/category/zapatillas'}>ZAPATILLAS</Link>
+                    <Link to={'/category/camisetas'}>CAMISETAS</Link>
+                    <Link to={'/category/buzos'}>BUZOS</Link>
+                    <Link to={'/category/pantalones'}>PANTALONES</Link>
+                    <Link to={'/category/shorts'}>SHORTS</Link>
+                    <Link to={'/category/carrito'}> <img src="/carrito.jpg" alt="carrito" /> </Link>
                 </div>
 
             </nav>

@@ -1,4 +1,4 @@
-export const Home = () => {
+export const ItemListHome = () => {
 
     return (
         <div className= 'home'>

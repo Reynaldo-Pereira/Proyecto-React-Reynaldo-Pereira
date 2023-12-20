@@ -1,8 +1,10 @@
-export const usePedirDatos = (data) => {
+import { datos } from "../components/js/productos.js"
+
+export const usePedirDatos = () => {
 
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(data)
+            resolve(datos)
         }, 3000)
     })
 }

@@ -1,0 +1,59 @@
+.tarjeta {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    width: 100%;
+
+    .tarjetita {
+        overflow: hidden;
+        height: 300px;
+
+        img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+
+            transition: 0.5s;
+
+            &:hover {
+                transform: scale(1.2,1.2);
+            }
+        }
+    }
+
+    .tarjetita-body {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+
+        h4 {
+            font-size: 30px;
+            color: white;
+        }
+
+        p {
+            font-size: 18px;
+            color: white;
+        } 
+
+        b {
+            font-size: 18px;
+            color: rgb(21, 255, 0);
+        }
+
+        button {
+            font-family: Caprasimo;
+            cursor: pointer;
+            background-color: rgb(240, 228, 228);
+            padding: 10px;
+            border: 2px solid rgb(15, 0, 148);
+            transition: 0.5s;
+
+            &:hover {
+                border-radius: 20px;
+            }
+        }
+    }
+}
