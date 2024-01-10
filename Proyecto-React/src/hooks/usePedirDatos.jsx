@@ -5,6 +5,6 @@ export const usePedirDatos = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(datos)
-        }, 3000)
+        }, 1000)
     })
 }

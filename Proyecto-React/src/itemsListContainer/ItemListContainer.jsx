@@ -36,7 +36,7 @@ export const ItemListContainer = () => {
                     </div>
 
                     : <div className='cards'>
-                        <Items marca= 'Adidas' datos={productos} />
+                        <Items datos={productos} />
                     </div>
             }
 
