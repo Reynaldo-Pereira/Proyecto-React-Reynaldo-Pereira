@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    gap: 5px;
+    gap: 20px;
 
     h2 {
         color: white;
@@ -75,4 +75,50 @@
             }
         }
     }
+
+    .cart-total {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+
+        div {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+
+            button {
+                width: 15%;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+// Checkout
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+
+    h2 {
+        color: white;
+    }
+
+    form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: 2px solid white;
+    }
+}
+
+// Cuenta
+
+.data {
+    background-color: white;
 }

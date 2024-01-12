@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const Items = ({ marca, datos }) => {
+export const Items = ({ datos }) => {
     return (
         
         <section className="container">
