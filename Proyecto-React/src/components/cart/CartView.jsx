@@ -1,10 +1,12 @@
-import { useContext } from "react"
+import { useContext, useState } from "react"
 import { Context } from "../../context/CartContext"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 
 export const CartView = () => {
-    const {cart, totalCart ,deleteItem} = useContext(Context)
+
+    //Context
+    const {cart, totalCart ,deleteItem, clearCart,} = useContext(Context)
 
     return (
         <section className="cart">
@@ -34,11 +36,9 @@ export const CartView = () => {
                                         <div className="cart-body">
 
                                             <p className="c1">{product.modelo}</p>
-                                            <p className="c2">Talla {product.talla}</p>
-                                            <button className="c3"> - </button>
-                                            <p className="c4">{product.unidades}</p>
-                                            <button className="c5"> + </button>
-                                            <b className="c6">Costo: {product.valor}$</b>
+                                            <p className="c2">{product.size}</p>
+                                            <p className="c4">{product.quantity}</p>
+                                            <b className="c6">Total {product.valor * product.quantity}$</b>
                                             <button onClick={() => deleteItem(product.id)} className="c7">Borrar</button>
 
                                         </div>
@@ -55,7 +55,7 @@ export const CartView = () => {
                             <h2>Total a pagar {totalCart()}$</h2>
 
                             <div>
-                                <button>Vaciar Carrito</button>
+                                <button onClick={clearCart}>Vaciar Carrito</button>
                                 <button><Link to={'/checkout'}>Comprar</Link></button>
                             </div>
 

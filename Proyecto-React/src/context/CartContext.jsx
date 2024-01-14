@@ -8,8 +8,9 @@ export const CartContext = ({children}) => {
     const [cart , setCart] = useState([])
 
     //Funciones
+
     const totalCart = () => {
-        return cart.reduce((acc, x) => acc + (x.valor * x.unidades), 0)
+        return cart.reduce((acc, x) => acc + (x.valor * x.quantity), 0)
     }
 
     const addCart = (item) => {

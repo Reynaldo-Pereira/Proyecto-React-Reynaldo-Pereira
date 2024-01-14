@@ -8,8 +8,6 @@ export const datos = [
             "modelo": "Duramo SL",
             "color": "Sky Blue",
             "valor": 35,
-            "unidades": 1,
-            "talla": 34
         },
         {
             "id": 2,
@@ -18,9 +16,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Duramo SL",
             "color": "BLue",
-            "valor": 40,
-            "unidades": 1,
-            "talla": 34
+            "valor": 40
         },
         {
             "id": 3,
@@ -29,9 +25,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Duramo SL",
             "color": "Orange",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 4,
@@ -40,9 +34,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Duramo SL",
             "color": "Black",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 5,
@@ -51,9 +43,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Sportswear Pink",
             "color": "Pink",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 6,
@@ -62,9 +52,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Sportswear Blue",
             "color": "BLue",
-            "valor": 40,
-            "unidades": 1,
-            "talla": 34
+            "valor": 40
         },
         {
             "id": 7,
@@ -73,9 +61,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Sportswear Black",
             "color": "Black",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 8,
@@ -84,9 +70,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Sportswear Yellow",
             "color": "Yellow",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 9,
@@ -95,9 +79,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Adi Red",
             "color": "red",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 10,
@@ -106,9 +88,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Boca Juniors",
             "color": "Yellow",
-            "valor": 40,
-            "unidades": 1,
-            "talla": 34
+            "valor": 40
         },
         {
             "id": 11,
@@ -117,9 +97,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Adi Black",
             "color": "Black",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 12,
@@ -128,9 +106,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Adi White",
             "color": "White",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 13,
@@ -139,9 +115,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Jogging Argentina",
             "color": "Blue",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 14,
@@ -150,9 +124,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Jogging Blue",
             "color": "BLue",
-            "valor": 40,
-            "unidades": 1,
-            "talla": 34
+            "valor": 40
         },
         {
             "id": 15,
@@ -161,9 +133,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Jogging Grey",
             "color": "Grey",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 16,
@@ -172,9 +142,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Jogging Black",
             "color": "Black",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 17,
@@ -183,9 +151,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Running",
             "color": "Yellow",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 18,
@@ -194,9 +160,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Running",
             "color": "BLue",
-            "valor": 40,
-            "unidades": 1,
-            "talla": 34
+            "valor": 40
         },
         {
             "id": 19,
@@ -205,9 +169,7 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Running",
             "color": "White",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         },
         {
             "id": 20,
@@ -216,8 +178,6 @@ export const datos = [
             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
             "modelo": "Running",
             "color": "Black",
-            "valor": 35,
-            "unidades": 1,
-            "talla": 34
+            "valor": 35
         }
 ]

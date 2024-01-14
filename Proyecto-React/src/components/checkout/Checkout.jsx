@@ -8,7 +8,7 @@ import { addDoc, collection } from "firebase/firestore"
 export const Checkout = () => {
 
     //Contexto
-    const { cart, totalCart } = useContext(Context)
+    const { cart, totalCart, clearCart } = useContext(Context)
 
     //Estados
     const [pay, setPay] = useState('')
@@ -36,38 +36,37 @@ export const Checkout = () => {
     const submit = (e) => {
         e.preventDefault()
 
-        const order = {
-            client: values,
-            items: cart,
-            total: Number(pay),
-            fecha: new Date()
+        if(pay == totalCart()) {
+            const order = {
+                client: values,
+                items: cart,
+                total: Number(pay),
+                fecha: new Date()
+            }
+    
+            const orderRef = collection(db , 'orders')
+            addDoc(orderRef, order)
+                .then(doc => setDataOrders(doc.id))
         }
-
-        console.log(order)
-
-        const orderRef = collection(db , 'orders')
-        addDoc(orderRef, order)
-            .then(doc => setDataOrders(doc))
+        else {
+            alert('monto incorrecto')
+        }
     }
 
     if(dataOrders) {
 
-        console.log(dataOrders)
+        clearCart()
         
         return (
 
             <div className="data">
-                <h2>Tu codigo de compra es: {dataOrders.id}</h2>
-                <p>nombre: {dataOrders.client}</p>
-                <p>address: {dataOrders.address}</p>
-                <p>email: {dataOrders.email}</p>
-                <p>Fecha de compra: {dataOrders.fecha}</p>
-
-                <b>Total: {dataOrders.total}</b>
+                <h2>Tu codigo de compra es: {dataOrders}</h2>
             </div>
 
         )
     }
+
+    
 
     return (
 
