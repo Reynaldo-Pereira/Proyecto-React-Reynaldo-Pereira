@@ -12,6 +12,7 @@ export const ItemListContainer = () => {
     const { marcaId } = useParams()
 
     useEffect(() => {
+        
         setLoading(true)
 
         const productRef = collection(db, 'products')

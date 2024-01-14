@@ -13,6 +13,8 @@ export const Checkout = () => {
     //Estados
     const [pay, setPay] = useState('')
 
+    const [loading, setLoading] = useState(true)
+
     const [values, setValues] = useState({
         name: '',
         address: '',
@@ -37,6 +39,9 @@ export const Checkout = () => {
         e.preventDefault()
 
         if(pay == totalCart()) {
+
+            setLoading(false)
+
             const order = {
                 client: values,
                 items: cart,
@@ -59,9 +64,14 @@ export const Checkout = () => {
         
         return (
 
-            <div className="data">
-                <h2>Tu codigo de compra es: {dataOrders}</h2>
-            </div>
+            <section className="data">
+                <div>
+
+                    <h2>Thanks for shopping with us</h2>
+                    <p>Tu codigo de compra es: {dataOrders}</p>
+                    
+                </div>
+            </section>
 
         )
     }
@@ -72,42 +82,54 @@ export const Checkout = () => {
 
         <div className="checkout">
 
-            <h2>Ingresa tus datos</h2>
+            <h2>Enter your data</h2>
 
             <form onSubmit={submit} action="submit">
 
-                <input 
+                <input
+                className="f1" 
                 onChange={inputChange} 
                 value={values.name} 
                 name="name" 
                 type="text" 
-                placeholder="Nombre" 
+                placeholder="Name"
+                required
                 />
 
-                <input 
+                <input
+                className="f2" 
                 onChange={inputChange} 
                 value={values.address} 
                 name="address" 
                 type="text" 
-                placeholder="Dirección" 
+                placeholder="Address"
+                required
                 />
 
                 <input 
+                className="f3"
                 onChange={inputChange} 
                 value={values.email} 
                 name="email" 
                 type="email" 
-                placeholder="Email" 
+                placeholder="Email"
+                required
                 />
 
-                <input 
+                <input
+                className="f4" 
                 onChange={payChange}
                 type="number"
-                placeholder= {`Total a pagar ${totalCart()}$`}
+                placeholder= {`Total to buy ${totalCart()}$`}
                 value={pay}
+                required
                 />
 
-                <button type="submit">Enviar</button>
+                {
+                    loading 
+                        ? <button className="f5" type="submit">Send</button>
+                        : <button className="f5">Sending..</button>
+                }
 
             </form>
 

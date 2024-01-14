@@ -35,11 +35,11 @@ export const CartView = () => {
 
                                         <div className="cart-body">
 
-                                            <p className="c1">{product.modelo}</p>
-                                            <p className="c2">{product.size}</p>
-                                            <p className="c4">{product.quantity}</p>
-                                            <b className="c6">Total {product.valor * product.quantity}$</b>
-                                            <button onClick={() => deleteItem(product.id)} className="c7">Borrar</button>
+                                            <p className="c1">{product.name}</p>
+                                            <p className="c2">Size {product.size}</p>
+                                            <p className="c3">Quantity {product.quantity}</p>
+                                            <b className="c4">Total {product.price * product.quantity}$</b>
+                                            <button onClick={() => deleteItem(product.id)} className="c5">delete</button>
 
                                         </div>
 
@@ -52,11 +52,11 @@ export const CartView = () => {
 
                         <div className="cart-total">
 
-                            <h2>Total a pagar {totalCart()}$</h2>
+                            <h2>CART TOTAL {totalCart()}$</h2>
 
                             <div>
-                                <button onClick={clearCart}>Vaciar Carrito</button>
-                                <button><Link to={'/checkout'}>Comprar</Link></button>
+                                <button onClick={clearCart}>EMPTY CART</button>
+                                <button><Link to={'/checkout'}>BUY</Link></button>
                             </div>
 
                         </div>

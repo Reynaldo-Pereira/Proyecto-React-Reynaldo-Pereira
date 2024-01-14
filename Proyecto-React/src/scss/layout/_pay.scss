@@ -23,7 +23,7 @@
 
     .cart-container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: repeat(3, auto);
         padding: 10px;
         gap: 15px;
 
@@ -41,44 +41,44 @@
             .cart-body {
                 width: 100%;
                 text-align: center;
-                display: flex;
-                align-items: center;
                 display: grid;
+                justify-content: center;
+                align-items: center;
                 grid-template-columns: auto auto auto;
                 grid-template-areas:
-                                    'a1 a1 a1'
-                                    'a2 a2 a2'
-                                    'a3 a4 a5'
-                                    'a6 a6 a6'
-                                    'a7 a7 a7';
+                                    'a1 a1'
+                                    'a2 a2'
+                                    'a3 a3'
+                                    'a4 a5';
                 
                 .c1 {
                     color: white;
+                    font-size: 20px;
                     grid-area: a1;
                 }
                 .c2 {
                     color: white;
+                    font-size: 18px;
                     grid-area: a2;
                 }
                 .c3 {
                     grid-area: a3;
-                    cursor: pointer;
+                    font-size: 18px;
+                    color: white;
                 }
                 .c4 {
-                    color: white;
                     grid-area: a4;
+                    color: rgb(0, 250, 0);
+                    padding: 5px;
                 }
                 .c5 {
                     grid-area: a5;
+                    width: 100%;
+                    font-family: Caprasimo;
                     cursor: pointer;
-                }
-                .c6 {
-                    grid-area: a6;
-                    color: rgb(0, 250, 0);
-                }
-                .c7 {
-                    grid-area: a7;
-                    cursor: pointer;
+                    background-color: rgb(240, 228, 228);
+                    padding: 10px;
+                    border: 2px solid rgb(15, 0, 148);
                 }
             }
         }
@@ -96,9 +96,19 @@
             display: flex;
             justify-content: space-evenly;
 
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
             button {
                 width: 15%;
                 padding: 10px;
+                font-family: Caprasimo;
+                cursor: pointer;
+                background-color: rgb(240, 228, 228);
+                border: 2px solid rgb(15, 0, 148);
+                transition: 0.5s;
             }
         }
     }
@@ -111,22 +121,87 @@
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
 
     h2 {
         color: white;
     }
 
     form {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
+        width: 70%;
+        height: 500px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
         gap: 10px;
         border: 2px solid white;
+        grid-template-columns: repeat(2, auto);
+        grid-template-areas: 
+                            'a1 a2'
+                            'a3 a4'
+                            'a5 a5';
+
+        input {
+            text-align: center;
+            width: 60%;
+            border-radius: 20px;
+            height: 50px;
+            background-color: rgb(240, 228, 228);
+            padding: 10px;
+            border: 2px solid rgb(15, 0, 148);
+            font-family: Caprasimo;
+        }
+
+        button {
+            width: 60%;
+            border-radius: 20px;
+            height: 50px;
+            font-family: Caprasimo;
+            cursor: pointer;
+            background-color: rgb(240, 228, 228);
+            padding: 10px;
+            border: 2px solid rgb(15, 0, 148);
+        }
+
+        .f1 {
+            grid-area: a1;
+        }
+
+        .f2 {
+            grid-area: a2;
+        }
+
+        .f3 {
+            grid-area: a3;
+        }
+
+        .f4 {
+            grid-area: a4;
+        }
+
+        .f5 {
+            grid-area: a5;
+        }
     }
 }
 
 // Cuenta
 
 .data {
-    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+    div {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 400px;
+        gap: 20px;
+    }
 }

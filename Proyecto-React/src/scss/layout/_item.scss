@@ -1,8 +1,20 @@
+.volver {
+    padding: 15px;
+    padding-top: 20px;
+
+    button {
+        font-family: Caprasimo;
+        cursor: pointer;
+        background-color: rgb(240, 228, 228);
+        padding: 10px;
+        border: 2px solid rgb(15, 0, 148);
+    }
+}
+
 .tarjeta {
     display: flex;
     align-items: center;
-    padding: 30px;
-    gap: 20px;
+    padding: 15px;
     width: 100%;
 
     .tarjetita {
@@ -23,37 +35,96 @@
     }
 
     .tarjetita-body {
-        display: flex;
-        flex-direction: column;
+        background-color: rgb(20, 0, 77);
+        padding: 10px;
         text-align: center;
-        gap: 30px;
-
-        h4 {
-            font-size: 30px;
-            color: white;
-        }
+        height: 300px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(6, auto);
+        grid-template-areas:
+                            'a1 a1 a1 a1 a1 a1'
+                            'a2 a2 a2 a2 a2 a2'
+                            'a3 a4 a5 a6 a7 a8'
+                            ;
 
         p {
             font-size: 18px;
             color: white;
-        } 
+        }
+        
+        .t1 {
+            grid-area: a1;
+            font-size: 30px;
+            color: white;
+        }
 
-        b {
-            font-size: 18px;
-            color: rgb(21, 255, 0);
+        .t2 {
+            grid-area: a2;
+        }
+
+        .t3 {
+            grid-area: a3;
+        }
+
+        .t4 {
+            grid-area: a4;
+        }
+
+        .t5 {
+            grid-area: a5;
+        }
+
+        .t6 {
+            grid-area: a6;
+        }
+
+        .t7 {
+            grid-area: a7;
+        }
+
+        .t8 {
+            grid-area: a8;
+        }
+
+        .t9 {
+            grid-area: a9;
         }
 
         button {
+            font-size: 15px;
+            width: 50%;
             font-family: Caprasimo;
             cursor: pointer;
             background-color: rgb(240, 228, 228);
             padding: 10px;
             border: 2px solid rgb(15, 0, 148);
-            transition: 0.5s;
-
-            &:hover {
-                border-radius: 20px;
-            }
         }
+    }
+}
+
+.tarjeta-total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    p {
+        font-size: 18px;
+        color: white;
+    }
+
+    b {
+        font-size: 18px;
+        color: rgb(21, 255, 0);
+    }
+
+    button {
+        font-family: Caprasimo;
+        cursor: pointer;
+        background-color: rgb(240, 228, 228);
+        padding: 10px;
+        border: 2px solid rgb(15, 0, 148);
     }
 }
