@@ -1,4 +1,12 @@
 // Cart
+.cart-icon {
+    display: flex;
+
+    span {
+        color: white;
+    }
+}
+
 .cart {
     display: flex;
     flex-direction: column;

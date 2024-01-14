@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react"
-import { usePedirDatos } from "../hooks/usePedirDatos.jsx"
 import { useParams } from "react-router-dom"
-import { ItemDetail } from "../components/itemsList/ItemDetail.jsx"
+import { ItemDetail } from "../ItemDetail/ItemDetail.jsx"
+import { doc, getDoc } from "firebase/firestore"
+import { db } from "../../firebase/config.js"
+
 
 export const ItemDetailContainer = () => {
 
@@ -13,12 +15,16 @@ export const ItemDetailContainer = () => {
     useEffect(() => {
         setLoading(true)
 
-        usePedirDatos()
-            .then((data) => {
+        const docRef = doc(db, 'products', itemId)
 
-                const filtro = data.find(x => x.id === Number(itemId))
+        getDoc(docRef)
+            .then((res) => {
+                const doc = {
+                    ...res.data(),
+                    id: res.id
+                }
 
-                setItem(filtro)
+                setItem(doc)
             })
             .finally(() => setLoading( false ))
         }, [])

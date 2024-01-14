@@ -1,0 +1,552 @@
+[
+        
+        
+        {
+            "id": 1,
+            "brand": "adidas",
+            "url": "/adidas azul claro.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Sky Blue",
+            "price": 35
+        },
+        {
+            "id": 2,
+            "brand": "adidas",
+            "url": "/adidas azul.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 3,
+            "brand": "adidas",
+            "url": "/adidas bicolor.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Orange",
+            "price": 35
+        },
+        {
+            "id": 4,
+            "brand": "adidas",
+            "url": "/adidas black.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 5,
+            "brand": "adidas",
+            "url": "/adidas blue.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Sky Blue",
+            "price": 35
+        },
+        {
+            "id": 6,
+            "brand": "adidas",
+            "url": "/adidas coral.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 7,
+            "brand": "adidas",
+            "url": "/adidas green.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Orange",
+            "price": 35
+        },
+        {
+            "id": 8,
+            "brand": "adidas",
+            "url": "/adidas grey.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 9,
+            "brand": "adidas",
+            "url": "/adidas negro.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Sky Blue",
+            "price": 35
+        },
+        {
+            "id": 10,
+            "brand": "adidas",
+            "url": "/adidas orange.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 11,
+            "brand": "adidas",
+            "url": "/adidas red.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Orange",
+            "price": 35
+        },
+        {
+            "id": 12,
+            "brand": "adidas",
+            "url": "/adidas rojos.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 13,
+            "brand": "adidas",
+            "url": "/adidas tricolor.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Sky Blue",
+            "price": 35
+        },
+        {
+            "id": 14,
+            "brand": "adidas",
+            "url": "/adidas white green.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 15,
+            "brand": "adidas",
+            "url": "/adidas white orange.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Orange",
+            "price": 35
+        },
+        {
+            "id": 16,
+            "brand": "adidas",
+            "url": "/adidas white.avif",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Duramo SL",
+            "color": "Black",
+            "price": 35
+        },
+
+        
+        {
+            "id": 17,
+            "brand": "nike",
+            "url": "/nike bicolor.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Pink",
+            "color": "Pink",
+            "price": 40
+        },
+        {
+            "id": 18,
+            "brand": "nike",
+            "url": "/nike black red.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Blue",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 19,
+            "brand": "nike",
+            "url": "/nike black white.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Black",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 20,
+            "brand": "nike",
+            "url": "/nike blue.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Yellow",
+            "color": "Yellow",
+            "price": 35
+        },
+        {
+            "id": 21,
+            "brand": "nike",
+            "url": "/nike bordo.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Pink",
+            "color": "Pink",
+            "price": 35
+        },
+        {
+            "id": 22,
+            "brand": "nike",
+            "url": "/nike green.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Blue",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 23,
+            "brand": "nike",
+            "url": "/nike grey.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Black",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 24,
+            "brand": "nike",
+            "url": "/nike gris claro.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Yellow",
+            "color": "Yellow",
+            "price": 35
+        },
+        {
+            "id": 25,
+            "brand": "nike",
+            "url": "/nike moradito.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Pink",
+            "color": "Pink",
+            "price": 35
+        },
+        {
+            "id": 26,
+            "brand": "nike",
+            "url": "/nike morado.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Blue",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 27,
+            "brand": "nike",
+            "url": "/nike purple.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Black",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 28,
+            "brand": "nike",
+            "url": "/nike red.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Yellow",
+            "color": "Yellow",
+            "price": 35
+        },
+        {
+            "id": 29,
+            "brand": "nike",
+            "url": "/nike rosa.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Pink",
+            "color": "Pink",
+            "price": 35
+        },
+        {
+            "id": 30,
+            "brand": "nike",
+            "url": "/nike tricolor.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Blue",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 31,
+            "brand": "nike",
+            "url": "/nike white orange.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Black",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 32,
+            "brand": "nike",
+            "url": "/nike white pink.webp",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Sportswear Yellow",
+            "color": "Yellow",
+            "price": 35
+        },
+
+        
+        {
+            "id": 33,
+            "brand": "puma",
+            "url": "/puma black green.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Adi Red",
+            "color": "red",
+            "price": 35
+        },
+        {
+            "id": 34,
+            "brand": "puma",
+            "url": "/puma black.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Boca Juniors",
+            "color": "Yellow",
+            "price": 40
+        },
+        {
+            "id": 35,
+            "brand": "puma",
+            "url": "/puma blue.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Adi Black",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 36,
+            "brand": "puma",
+            "url": "/puma coral.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Adi White",
+            "color": "White",
+            "price": 35
+        },
+        {
+            "id": 37,
+            "brand": "puma",
+            "url": "/puma grey.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Adi Red",
+            "color": "red",
+            "price": 35
+        },
+        {
+            "id": 38,
+            "brand": "puma",
+            "url": "/puma multicolor.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Boca Juniors",
+            "color": "Yellow",
+            "price": 40
+        },
+        {
+            "id": 39,
+            "brand": "puma",
+            "url": "/puma negro.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Adi Black",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 40,
+            "brand": "puma",
+            "url": "/puma orange.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Adi White",
+            "color": "White",
+            "price": 35
+        },
+        {
+            "id": 41,
+            "brand": "puma",
+            "url": "/puma pink.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Adi Red",
+            "color": "red",
+            "price": 35
+        },
+        {
+            "id": 42,
+            "brand": "puma",
+            "url": "/puma purple.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Boca Juniors",
+            "color": "Yellow",
+            "price": 40
+        },
+        {
+            "id": 43,
+            "brand": "puma",
+            "url": "/puma rosita.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Adi Black",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 44,
+            "brand": "puma",
+            "url": "/puma white pink.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Adi White",
+            "color": "White",
+            "price": 35
+        },
+
+        
+        {
+            "id": 45,
+            "brand": "jordan",
+            "url": "/jordan black lisas.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Jogging Argentina",
+            "color": "Blue",
+            "price": 35
+        },
+        {
+            "id": 46,
+            "brand": "jordan",
+            "url": "/jordan black white.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Jogging Blue",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 47,
+            "brand": "jordan",
+            "url": "/jordan black.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Jogging Grey",
+            "color": "Grey",
+            "price": 35
+        },
+        {
+            "id": 48,
+            "brand": "jordan",
+            "url": "/jordan blue.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Jogging Black",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 49,
+            "brand": "jordan",
+            "url": "/jordan grey.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Jogging Argentina",
+            "color": "Blue",
+            "price": 35
+        },
+        {
+            "id": 50,
+            "brand": "jordan",
+            "url": "/jordan orange.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Jogging Blue",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 51,
+            "brand": "jordan",
+            "url": "/jordan white lisas.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Jogging Grey",
+            "color": "Grey",
+            "price": 35
+        },
+        {
+            "id": 52,
+            "brand": "jordan",
+            "url": "/jordan white.jpg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Jogging Black",
+            "color": "Black",
+            "price": 35
+        },
+
+        
+        {
+            "id": 53,
+            "brand": "under",
+            "url": "/under armour black white.jpeg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Running",
+            "color": "Yellow",
+            "price": 35
+        },
+        {
+            "id": 54,
+            "brand": "under",
+            "url": "/under armour black.jpeg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Running",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 55,
+            "brand": "under",
+            "url": "/under armour blue.jpeg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Running",
+            "color": "White",
+            "price": 35
+        },
+        {
+            "id": 56,
+            "brand": "under",
+            "url": "/under armour multicolor.jpeg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Running",
+            "color": "Black",
+            "price": 35
+        },
+        {
+            "id": 57,
+            "brand": "under",
+            "url": "/under armour pink.jpeg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Running",
+            "color": "Yellow",
+            "price": 35
+        },
+        {
+            "id": 58,
+            "brand": "under",
+            "url": "/under armour red.jpeg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Running",
+            "color": "BLue",
+            "price": 40
+        },
+        {
+            "id": 59,
+            "brand": "under",
+            "url": "/Under armour rojos.jpeg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Running",
+            "color": "White",
+            "price": 35
+        },
+        {
+            "id": 60,
+            "brand": "under",
+            "url": "/Under Armour verde.jpeg",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quos, beatae fugiat sunt culpa ex dignissimos consequatur deserunt fugit ipsum?",
+            "name": "Running",
+            "color": "Black",
+            "price": 35
+        }
+]

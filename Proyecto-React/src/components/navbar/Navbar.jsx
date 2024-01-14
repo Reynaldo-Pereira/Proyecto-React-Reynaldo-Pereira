@@ -1,6 +1,6 @@
-import { Cart } from '../cart/CartWidget'
+import { Cart } from '../CartView/CartWidget'
 import { Link } from 'react-router-dom'
-import { Logo } from '../logo/Logo'
+import { Logo } from '../Logo/Logo'
 
 export function NavBar() {
 
@@ -13,11 +13,11 @@ export function NavBar() {
 
                 <div>
                     <Link to={'/'}>INICIO</Link>
-                    <Link to={'/category/zapatillas'}>ZAPATILLAS</Link>
-                    <Link to={'/category/camisetas'}>CAMISETAS</Link>
-                    <Link to={'/category/buzos'}>BUZOS</Link>
-                    <Link to={'/category/pantalones'}>PANTALONES</Link>
-                    <Link to={'/category/shorts'}>SHORTS</Link>
+                    <Link to={'/marca/jordan'}>JORDAN</Link>
+                    <Link to={'/marca/under'}>UNDER ARMOUR</Link>
+                    <Link to={'/marca/puma'}>PUMA</Link>
+                    <Link to={'/marca/nike'}>NIKE</Link>
+                    <Link to={'/marca/adidas'}>ADIDAS</Link>
                     <Link to={'/cart'}> <Cart /> </Link>
                 </div>
 
