@@ -11,95 +11,109 @@
     }
 }
 
-.tarjeta {
+.item-body {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 15px;
-    width: 100%;
+    padding-top: 10px;
 
-    .tarjetita {
-        overflow: hidden;
-        height: 300px;
-
-        img {
+    .tarjeta {
+        background-image: linear-gradient(80deg, rgb(5, 0, 51), black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    
+        .tarjetita {
+            overflow: hidden;
             width: 300px;
             height: 300px;
-            object-fit: cover;
-
-            transition: 0.5s;
-
-            &:hover {
-                transform: scale(1.2,1.2);
+    
+            img {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+    
+                transition: 0.5s;
+    
+                &:hover {
+                    transform: scale(1.2,1.2);
+                }
             }
         }
-    }
-
-    .tarjetita-body {
-        background-color: rgb(3, 0, 31);
-        padding: 10px;
-        text-align: center;
-        height: 300px;
-        display: grid;
-        align-items: center;
-        justify-items: center;
-        grid-template-columns: repeat(6, auto);
-        grid-template-areas:
-                            'a1 a1 a1 a1 a1 a1'
-                            'a2 a2 a2 a2 a2 a2'
-                            'a3 a4 a5 a6 a7 a8'
-                            ;
-
-        p {
-            font-size: 18px;
-            color: white;
-        }
-        
-        .t1 {
-            grid-area: a1;
-            font-size: 30px;
-            color: white;
-        }
-
-        .t2 {
-            grid-area: a2;
-        }
-
-        .t3 {
-            grid-area: a3;
-        }
-
-        .t4 {
-            grid-area: a4;
-        }
-
-        .t5 {
-            grid-area: a5;
-        }
-
-        .t6 {
-            grid-area: a6;
-        }
-
-        .t7 {
-            grid-area: a7;
-        }
-
-        .t8 {
-            grid-area: a8;
-        }
-
-        .t9 {
-            grid-area: a9;
-        }
-
-        button {
-            font-size: 15px;
-            width: 50%;
-            font-family: Caprasimo;
-            cursor: pointer;
-            background-color: rgb(240, 228, 228);
+    
+        .tarjetita-body {
             padding: 10px;
-            border: 2px solid rgb(15, 0, 148);
+            text-align: center;
+            width: 80%;
+            height: 300px;
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            grid-template-columns: repeat(6, auto);
+            grid-template-areas:
+                                'a1 a1 a1 a1 a1 a1'
+                                'a2 a2 a2 a2 a2 a2'
+                                'a3 a4 a5 a6 a7 a8'
+                                ;
+    
+            p {
+                font-size: 18px;
+                color: white;
+            }
+            
+            button {
+                font-size: 18px;
+                width: 50%;
+                font-family: Caprasimo;
+                cursor: pointer;
+                background-color: rgb(240, 228, 228);
+                padding: 10px;
+                border: 2px solid rgb(15, 0, 148);
+            }
+    
+            b {
+                color: red;
+            }
+            
+            .t1 {
+                grid-area: a1;
+                font-size: 30px;
+                color: white;
+            }
+    
+            .t2 {
+                grid-area: a2;
+            }
+    
+            .t3 {
+                grid-area: a3;
+            }
+    
+            .t4 {
+                grid-area: a4;
+            }
+    
+            .t5 {
+                grid-area: a5;
+            }
+    
+            .t6 {
+                grid-area: a6;
+            }
+    
+            .t7 {
+                grid-area: a7;
+            }
+    
+            .t8 {
+                grid-area: a8;
+            }
+    
+            .t9 {
+                grid-area: a9;
+            }
+    
         }
     }
 }
@@ -108,6 +122,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20px;
     gap: 10px;
 
     p {
@@ -122,6 +137,7 @@
 
     button {
         font-family: Caprasimo;
+        font-size: 15px;
         cursor: pointer;
         background-color: rgb(240, 228, 228);
         padding: 10px;

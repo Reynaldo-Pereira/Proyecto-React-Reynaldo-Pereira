@@ -12,7 +12,7 @@ export function NavBar() {
             <nav>
 
                 <div>
-                    <Link to={'/'}>INICIO</Link>
+                    <Link to={'/'}>HOME</Link>
                     <Link to={'/marca/jordan'}>JORDAN</Link>
                     <Link to={'/marca/under'}>UNDER ARMOUR</Link>
                     <Link to={'/marca/puma'}>PUMA</Link>

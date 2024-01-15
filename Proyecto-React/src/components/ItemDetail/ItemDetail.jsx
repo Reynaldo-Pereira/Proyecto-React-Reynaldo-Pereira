@@ -49,34 +49,38 @@ export const ItemDetail = ({ item }) => {
     return (
         <>
             <div className="volver">
-                <button onClick={volver}>Volver</button>
+                <button onClick={volver}>BACK</button>
             </div>
 
-            <article key={item.name} className="tarjeta">
+            <div className="item-body">
+                <article key={item.name} className="tarjeta">
 
-                <div className="tarjetita">
-                    <img src={item.url} alt={item.name} />
-                </div>
+                    <div className="tarjetita">
+                        <img src={item.url} alt={item.name} />
+                    </div>
 
-                <div className="tarjetita-body">
-                    <h2 className="t1">{item.name}</h2>
-                    <p className="t2">{item.description}</p>
-                    <button className="t3" onClick={subtractSize}>-</button>
-                    <p className="t4">SIZE {size}</p>
-                    <button className="t5" onClick={addSize}>+</button>
-                    <button className="t6" onClick={subtractQuantity}>-</button>
-                    <p className="t7">QUANTITY {quantity}</p>
-                    <button className="t8" onClick={addQuantity}>+</button>
-                </div>
-            </article>
+                    <div className="tarjetita-body">
+                        <h2 className="t1">{item.name}</h2>
+                        <p className="t2">{item.description}</p>
+                        <button className="t3" onClick={subtractSize}>-</button>
+                        <p className="t4">SIZE <b>{size}</b></p>
+                        <button className="t5" onClick={addSize}>+</button>
+                        <button className="t6" onClick={subtractQuantity}>-</button>
+                        <p className="t7">QUANTITY <b>{quantity}</b></p>
+                        <button className="t8" onClick={addQuantity}>+</button>
+                    </div>
+
+                </article>
+
+            </div>
 
             <div className="tarjeta-total">
                 <p className="t9">TOTAL <b>{item.price * quantity}$</b></p>
 
                 {
                     inCart(item.id)
-                        ? <Link to={'/cart'}><button>FINALIZAR COMPRA</button></Link>
-                        : <button className="t10" onClick={agregar}>Agregar al carrito</button>
+                        ? <Link to={'/cart'}><button>Finalize purchase</button></Link>
+                        : <button className="t10" onClick={agregar}>Add to cart</button>
                 }
             </div>
         </>

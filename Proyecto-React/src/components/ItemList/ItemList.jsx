@@ -11,7 +11,7 @@ export const Items = ({ datos }) => {
                         <div className="box-body">
                             <p>{i.name}</p>
                             <b>{i.price}$</b>
-                            <Link to={`/item/${i.id}`}><button>VER MAS</button></Link>
+                            <Link to={`/item/${i.id}`}><button>SEE MORE</button></Link>
                         </div>
                     </article>
                 ))}

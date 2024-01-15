@@ -1,4 +1,5 @@
 header {
+    background-color: black;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -7,10 +8,10 @@ header {
     .Logo {
         display: flex;
         align-items: center;
+        overflow: hidden;
 
         img {
             width: 80px;
-            height: 80px;
             object-fit: cover;
             padding-top: 3px;
         }

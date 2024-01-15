@@ -40,7 +40,7 @@ export const ItemListContainer = () => {
             {
                 loading
                     ? <div className="carga"> 
-                        <h3>Cargando...</h3> 
+                        <h3>LOADING...</h3> 
                     </div>
 
                     : <div className='cards'>
