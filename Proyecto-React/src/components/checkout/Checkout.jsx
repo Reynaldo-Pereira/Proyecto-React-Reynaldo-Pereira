@@ -3,6 +3,7 @@ import { useState } from "react"
 import { Context } from "../../context/CartContext"
 import { db } from "../../firebase/config"
 import { addDoc, collection } from "firebase/firestore"
+import Swal from 'sweetalert2';
 
 
 export const Checkout = () => {
@@ -49,12 +50,23 @@ export const Checkout = () => {
                 fecha: new Date()
             }
     
-            const orderRef = collection(db , 'orders')
-            addDoc(orderRef, order)
-                .then(doc => setDataOrders(doc.id))
+            setTimeout(() => {
+                Swal.fire({
+                    title: "Payment completed!",
+                    icon: "success"
+                });
+
+                const orderRef = collection(db , 'orders')
+                addDoc(orderRef, order)
+                    .then(doc => setDataOrders(doc.id))
+            }, 3000);
         }
         else {
-            alert('monto incorrecto')
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Incorrect amount!"
+            });
         }
     }
 
@@ -68,7 +80,7 @@ export const Checkout = () => {
                 <div>
 
                     <h2>Thanks for shopping with us</h2>
-                    <p>Tu codigo de compra es: {dataOrders}</p>
+                    <p>Your purchase code is: {dataOrders}</p>
                     
                 </div>
             </section>
